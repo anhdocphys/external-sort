@@ -8,12 +8,17 @@ Compile:
 
 g++ main.cpp -o externalsort
 
+or just 
+
+make
+
 
 Usage
 
-./externalsort [filein] [fileout] [buffer size in MB]
+./main [filein] [fileout] [buffer size in MB]
 
 example:
 
-./externalsort bigfilein.dat bigfileout.dat 2000
+./main bigfilein.dat bigfileout.dat 2000
 
+sample data can be made by https://github.com/anhdocphys/make-test-file
